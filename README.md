@@ -8,6 +8,31 @@ A simplified Indeed/LinkedIn Jobs clone with three roles: **Job Seeker**, **Empl
 | Backend  | Spring Boot 3.3, Spring Security + JWT, Spring Data JPA (`backend/`) |
 | Database | PostgreSQL                                                  |
 
+## Screenshots
+
+![Home page](docs/screenshots/home.png)
+
+### Job seeker
+| Search with filters | Job details |
+|---|---|
+| ![Job search with filters](docs/screenshots/job-search.png) | ![Job detail page](docs/screenshots/job-detail.png) |
+| **Apply with resume and cover letter** | **Track applications** |
+| ![Apply modal](docs/screenshots/apply.png) | ![My applications with status pipeline](docs/screenshots/seeker-applications.png) |
+| **Profile and resume** | **Mobile** |
+| ![Seeker profile](docs/screenshots/seeker-profile.png) | <img src="docs/screenshots/mobile-jobs.png" alt="Mobile job search" width="260"> |
+
+### Employer
+| Job postings | Applicants |
+|---|---|
+| ![Employer dashboard](docs/screenshots/employer-dashboard.png) | ![Applicants with status management](docs/screenshots/employer-applicants.png) |
+| **Post a job** | |
+| ![Post a job form](docs/screenshots/employer-post-job.png) | |
+
+### Admin
+| Platform statistics | Moderate job postings |
+|---|---|
+| ![Admin dashboard](docs/screenshots/admin-dashboard.png) | ![Admin job moderation](docs/screenshots/admin-jobs.png) |
+
 ## Features
 
 **Job seeker**: register/login · profile (headline, skills, experience, education, links) · upload/replace/download resume (PDF/DOC/DOCX, 5 MB) · search jobs with keyword, location, job type, experience level, salary range, skills, and remote filters, plus sorting · apply with a cover letter · track application status through a pipeline view · withdraw and re-apply · bookmark jobs
