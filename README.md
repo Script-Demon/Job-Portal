@@ -122,3 +122,7 @@ All endpoints are under `/api`. Authenticated calls send `Authorization: Bearer 
 - **Resumes** are stored on disk outside the web root. The app validates file extensions and blocks path traversal. Each application keeps its own copy of the resume, so an employer always sees the version that was submitted, even if the seeker replaces it later.
 - **Deletes** cascade at the database level (`ON DELETE CASCADE`). For example, deleting a user also removes their company, jobs, applications and saved jobs, and the app deletes the related resume files.
 - **Search** uses JPA Specifications. The skills filter matches any of the given skills. The salary filters match any job whose salary range overlaps the requested range.
+
+## License
+
+Released under the [MIT License](LICENSE).
